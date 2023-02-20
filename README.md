@@ -1,4 +1,4 @@
-# CIT591-summer-2019-final-project-neuralfeedback
+# Neural Feedback Simulation for Children with Autism
 
 ## Project name
 ### Real-time Neural Feedback Simulation System for Children with Autism
@@ -19,15 +19,15 @@ Xinhui: test machine learning classifiers, build Clinician GUI, preprocess fMRI 
 ## Environment Set-up
 1 Open terminal, go to directory you want to save the project folder, type 
 ```shell
-git clone https://github.com/cit-591/final-project-summer-2019-neuralfeedback.git
+git clone https://github.com/ervgan/Neural_Feedback_Simulation.git
 ```
-2 Create a new Java project in Eclipse, uncheck "Use default location", choose your local project folder **591-final-project-neural-feedback**, and also choose **JavaSE-11** as execution environment under "JRE". If you haven't installed JavaSE-11, please use the link to download and install: https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html
+2 Create a new Java project in Eclipse, uncheck "Use default location", choose your local project folder, and also choose **JavaSE-11** as execution environment under "JRE". If you haven't installed JavaSE-11, please use the link to download and install: https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html
 
 ![GitHub Logo](/readme-img/JavaEnv.jpeg)
 
 3 Make sure all libraries (Weka, Slick2D, Nifti) are imported. If it is not the case, right click on your project, go to build path / configure build path / libraries / external JARs and search the Weka folder to add the Weka.Jar file (not the Weka-src.jar), then go the the nifti folder and add the niftijio-1.0-SNAPSHOT.jar file and finally add all .jar files from the Slick2d folder.
 
-4 In Eclipse, open 591-final-project-neural-feedback/src/(default package)/GameLauncher.java, run it as Java Application
+4 In Eclipse, open src/(default package)/GameLauncher.java, run it as Java Application
 
 ## Execution Instructions
 
